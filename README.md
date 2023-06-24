@@ -1,6 +1,6 @@
 # Personal-Finance-Tracker
 
-This is a personal finance tracker that I built using GitHub copilot. It helped me add functionalities, and helped me make sure that the page is dynamic. The functions and event listeners in the script, were all made by GitHub copilot. The HTML page and the styles were also made with the help of copilot, even though I also worked to change some things.
+This is a personal finance tracker that I built using GitHub copilot. It helped me add functionalities, and helped me make sure that the page is dynamic. The functions and event listeners in the script, were all made by GitHub copilot. The HTML page and the styles were also made with the help of copilot, even though I also worked to change some things. The demo of the project shows the functionalities present in the application.
 
 # Demo
 
