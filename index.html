@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transaction Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Transaction Tracker</h1>
+    <label for="description">Description:</label>
+    <input type="text" id="description">
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount">
+    <label for="type">Type:</label>
+    <select id="type">
+        <option value="">Select Type</option>
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+    </select>
+    <button id="add-button">Add Transaction</button>
+    <button id="clear-button">Clear Transactions</button>
+    <button id="delete-button">Delete Transaction</button>
+    <button id="sort-button">Sort Transactions</button>
+    <button id="filter-button">Filter Transactions</button>
+    <button id="save-button">Save Data</button>
+    <button id="load-button">Load Data</button>
+    <button id="clear-local-storage-button">Clear Local Storage</button>
+    <button id="clear-data-button">Clear Data</button>
+    <button id="clear-chart-button">Clear Chart</button>
+    <button id="clear-all-button">Clear All</button>
+
+    <h2>Transactions</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <h2>Summary</h2>
+    <p>Total Income: <span id="total-income"></span></p>
+    <p>Total Expense: <span id="total-expense"></span></p>
+    <p>Balance: <span id="balance"></span></p>
+
+    <h2>Chart</h2>
+    <canvas id="chart-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>

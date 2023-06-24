@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+    color: #333333;
+    
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .input-group > * {
+    flex: 1 1 auto;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #3399ff;
+  }
+  
+  .button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .button-row button {
+    flex: 0 0 calc(33.33% - 10px);
+    margin-bottom: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3399ff;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #2266cc;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f9f9f9;
+  }
+  
+  #chart-canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .summary p {
+    margin-bottom: 10px;
+  }
+  
+  span#balance {
+    font-weight: bold;
+    color: #ff3333;
+  }
+  
+  .errorMessage {
+    color: #ff3333;
+    font-style: italic;
+  }
+  
