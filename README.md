@@ -5,7 +5,11 @@ This is a personal finance tracker that I built using GitHub copilot. It helped 
 # Demo
 
 
-https://github.com/Fastest-Coder-First/Personal-Finance-Adithya/assets/76245460/48fba532-29bf-493c-add9-2c7053d92e15
+https://github.com/Fastest-Coder-First/Personal-Finance-Adithya/assets/76245460/c40c8cca-e4df-45a4-ba17-d69204656e9d
+
+
+
+
 
 
 
