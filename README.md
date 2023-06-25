@@ -5,7 +5,10 @@ This is a personal finance tracker that I built using GitHub copilot. It helped 
 # Demo
 
 
-https://github.com/Fastest-Coder-First/Personal-Finance-Adithya/assets/76245460/5f45436a-699a-4edd-a92a-437263b8c25a
+https://github.com/Fastest-Coder-First/Personal-Finance-Adithya/assets/76245460/48fba532-29bf-493c-add9-2c7053d92e15
+
+
+
 
 # Architecture Flow
 1. User Interface (UI):
